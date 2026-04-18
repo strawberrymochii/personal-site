@@ -1,6 +1,9 @@
 ---
 import '../styles/global.css';
+import Header from '../components/Header.astro';
+
 ---
+<Header/>
 
 <html lang="en">
 	<head>
@@ -8,8 +11,22 @@ import '../styles/global.css';
 		<meta name="viewport" content="width=device-width" />
 		<title>Food Pics</title>
 	</head>
+
 	<body>
 		<h1>The camera eats first</h1>
-		<p>A collection of all my favourite food pics<p>
+		<p>A collection of all my favourite food pics</p>
+		<div class="photos">
+			<div class="item"><img src= "/photos/1000000038.jpeg"></div>
+			<div class="item"><img src= "/photos/1000000961.jpeg"/></div>
+			<div class="item"><img src= "/photos/1000001332.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_0687.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_1274.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_1461.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_1660.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_1676.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_1696.jpeg"/></div>
+			<div class="item"><img src= "/photos/IMG_2304.jpeg"/></div>
+		</div>
 	</body>
+
 </html>
